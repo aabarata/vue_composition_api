@@ -2,17 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <Event/>
+    <Search/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import Event from './components/Event.vue';
+import Search from './components/Search.vue';
 
 export default Vue.extend({
   name: 'app',
   components: {
-    Event
+    Event,
+    Search
   }
 });
 </script>
